@@ -57,7 +57,7 @@ Name | Description
 1. Open the **`Terminal`** app. Copy and paste the following into prompt, then hit <kbd>Enter</kbd>:
 
     ```sh
-    curl https://github.com/yuanqing/sketch-handbook/blob/master/set-keyboard-shortcuts.sh | bash
+    curl https://raw.githubusercontent.com/yuanqing/sketch-handbook/master/set-keyboard-shortcuts.sh | bash
     ```
 
 2. Restart Sketch.
