@@ -1,139 +1,188 @@
-# Sketch Workshop
+# Sketch Handbook
 
-## ➥ Set up
+> A concise handbook for working precisely and effectively in [Sketch](https://www.sketch.com/)
 
-### 1. Set preferences
+- [**Initial set up**](#-initial-set-up)
+    - [Preferences](#1-preferences)
+    - [Plugins](#2-plugins)
+    - [Custom keyboard shortcuts](#3-custom-keyboard-shortcuts)
+    - [Sketch Mirror](#4-sketch-mirror)
+- [**Actions and keyboard shortcuts**](#-actions-and-keyboard-shortcuts)
+    - [Adjusting the view](#adjusting-the-view)
+    - [Navigating around the canvas](#navigating-around-the-canvas)
+    - [Inserting layers](#inserting-layers)
+    - [Changing layer state](#changing-layer-state)
+    - [Selecting layers](#selecting-layers)
+    - [Moving layers on the canvas](#moving-layers-on-the-canvas)
+    - [Reorder and sort layers in the layer list](#reorder-and-sort-layers-in-the-layer-list)
+    - [Renaming layers](#renaming-layers)
+    - [Copy and paste layer/text styles](#copy-and-paste-layertext-styles)
+    - [Find and replace text](#find-and-replace-text)
+    - [Cleaning up your Sketch file](#cleaning-up-your-sketch-file)
+    - [Preparing UX documentation for hand-off](#preparing-ux-documentation-for-hand-off)
 
+## Initial set up
+
+### 1. Preferences
+
+1. Open Sketch.
 1. Click **`Sketch`** in the menu bar and select **`Preferences…`**.
-2. In the **`General`** tab, set **`Color Profile`** to &ldquo;sRGB IEC61966-2.1&rdquo;.
-3. In the **`Layers`** tab, set **`Flatten Bitmaps`** to &ldquo;to @2x&rdquo;, and ensure that **`Rename duplicated layers`** is unchecked.
+2. In the **`General`** tab:
+    - Uncheck **`Scale down images to fit Artboards`**.
+    - Set **`Color Profile`** to “sRGB IEC61966-2.1”.
+3. In the **`Layers`** tab:
+    - Uncheck **`Rename duplicated layers`**.
+    - Set **`Flatten Bitmaps`** to “to @2x”.
 
-### 2. Install plugins
+### 2. Plugins
+
+1. Download each plugin listed below, and uncompress the **`.zip`**.
+2. Double-click each plugin file (**`.sketchplugin`**) to install it.
 
 Name | Description
 :--|:--
-[**Automate Sketch**](https://github.com/Ashung/Automate-Sketch) | Assorted utilities
-[**Butter**](https://github.com/pberrecloth/butter-sketch-plugin) | Arrange layers/artboards
-[**Find and Replace**](https://github.com/thierryc/Sketch-Find-And-Replace) | Find and replace in text layers
-[**Move It**](https://github.com/dawidw/move-it) | Move layers/artboards
-[**Rename It**](https://github.com/rodi01/RenameIt) | Rename layers/artboards
-[**Select Similar Layers**](https://github.com/wonderbit/sketch-select-similar-layers) | Select similar layers
-[**Shared Text Styles**](https://github.com/nilshoenson/shared-text-styles) | Import/export text styles
-[**Sketch Palettes**](https://github.com/andrewfiorillo/sketch-palettes) | Import/export colour palettes
-[**Zeplin**](https://support.zeplin.io/sketch-integration/installing-sketch-plugin) | Export to Zeplin
+[**Add Artboard Borders and Titles**](https://github.com/yuanqing/sketch-add-artboard-borders-and-titles/archive/master.zip) | Automatically add borders and titles to artboards
+[**Align to Grid**](https://github.com/yuanqing/sketch-align-to-grid/archive/master.zip) | Align artboards and layers to a grid
+[**Automate Sketch**](https://github.com/Ashung/Automate-Sketch/archive/master.zip) | Useful collection of helpers and utilities for Sketch
+[**Clean Document**](https://github.com/yuanqing/sketch-clean-document/archive/master.zip) | Automagically organise and clean up your Sketch document
+[**Draw Slice Over Selection**](https://github.com/yuanqing/sketch-draw-slice-over-selection/archive/master.zip) | Draw a slice over the selection
+[**Find and Replace Text**](https://github.com/yuanqing/sketch-find-and-replace-text/archive/master.zip) | Find and replace text in text layers and symbol instances
+[**Move Layers**](https://github.com/yuanqing/sketch-move-layers/archive/master.zip) | Precisely move and arrange layers
+[**Rename It**](https://github.com/rodi01/RenameIt/archive/master.zip) | Rename layers and artboards
+[**Select Layers**](https://github.com/yuanqing/sketch-select-layers/archive/master.zip) | Select layers based on name, type or similarity
+[**Sort Layer List**](https://github.com/yuanqing/sketch-sort-layer-list/archive/master.zip) | Sort the layer list by name or layer position
 
-### 3. Add custom keyboard shortcuts
+### 3. Custom keyboard shortcuts
 
-1. Open **`System Preferences`**.
-2. Select **`Keyboard`**, then click the **`Shortcuts`** tab.
-3. Select **`App Shortcuts`** on the left panel.
-4. Add the below shortcuts via the **`+`** button. (Select &ldquo;Sketch.app&rdquo; in the **`Application`** dropdown.)
+1. Open the **`Terminal`** app. Copy and paste the following into prompt, then hit <kbd>Enter</kbd>:
 
-Menu title | Keyboard shortcut
-:--|:--
-`Arrange->Align->Bottom` | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>B</kbd>
-`Arrange->Align->Left` | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>L</kbd>
-`Arrange->Align->Right` | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>R</kbd>
-`Arrange->Align->Top` | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>T</kbd>
-`Layer->Flatten Selection to Bitmap` | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>B</kbd>
-`Plugins->Automate->Arrange->Order Layers By ...->Name` | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>S</kbd>
-`Plugins->Automate->Arrange->Order Layers By ...->Position X` | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>X</kbd>
-`Plugins->Automate->Arrange->Order Layers By ...->Position Y` | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>Y</kbd>
-`Plugins->Butter->Space Selection Left` | <kbd>⌘</kbd> <kbd>L</kbd>
-`Plugins->Butter->Space Selection Up` | <kbd>⌘</kbd> <kbd>U</kbd>
-`Plugins->Rename It->Find and Replace Layers/Artboards Names` | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>R</kbd>
-`Plugins->Rename It->Rename Selected Layers` | <kbd>⌘</kbd> <kbd>R</kbd>
-`View->Layer List->Collapse All Groups` | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>C</kbd>
+    ```sh
+    curl https://github.com/yuanqing/sketch-handbook/blob/master/set-keyboard-shortcuts.sh | bash
+    ```
 
-### 4. Install Sketch Mirror
+2. Restart Sketch.
 
-Install [Sketch Mirror](https://www.sketchapp.com/docs/mirror/) on your iPhone.
+### 4. Sketch Mirror
 
-## ➥ Keyboard shortcuts
+Install the [**Sketch Mirror**](https://itunes.apple.com/us/app/sketch-mirror/id677296955) app on your iPhone to preview your designs on your mobile device. (On Android, install the [**Crystal**](https://play.google.com/store/apps/details?id=com.smithyproductions.crystal) app.)
 
-### Changing the view
+## Actions and keyboard shortcuts
 
-Action | Shortcut
-:--|:--
-Show/hide left panel | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>1</kbd>
-Show/hide right panel | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>2</kbd>
-Enter/exit full screen mode | <kbd>⌘</kbd> <kbd>.</kbd>
+### Adjust the view
 
-### Navigation
+Action | Keys | Menu Item
+:--|:--|:--
+Show/hide left panel | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>1</kbd> | View › Show Layer List
+Show/hide right panel | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>2</kbd> | View › Show Inspector
+Hide the <u>**T**</u>op panel | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>T</kbd> | View › Hide <u>**T**</u>oolbar
+Show the canvas only | <kbd>⌘</kbd> <kbd>.</kbd> | View › Hide Interface
 
-Action | Shortcut
-:--|:--
-Zoom in | Hold <kbd>Z</kbd>
-Zoom out | Hold <kbd>Z</kbd> <kbd>Option</kbd>
-Pan | Hold <kbd>Space</kbd>
+### Navigate around the canvas
 
-### Insert
+Action | Keys | Menu Item
+:--|:--|:--
+<u>**Z**</u>oom in | Hold <kbd>Z</kbd>, then click on the canvas | View › <u>**Z**</u>oom In
+<u>**Z**</u>oom out | Hold <kbd>Option</kbd> <kbd>Z</kbd>, then click on the canvas | View › <u>**Z**</u>oom Out
+Pan | Hold <kbd>Space</kbd> then click and drag on the canvas | —
+Show pixel distance <br />between layers | Select some layers, then hold <kbd>Option</kbd> <br />when hovering over other layers | —
 
-Action | Shortcut
-:--|:--
-Insert artboard | <kbd>A</kbd>
-Insert rectangle | <kbd>R</kbd>
-Insert oval/circle | <kbd>O</kbd>
-Insert vector | <kbd>V</kbd>
-Insert slice | <kbd>S</kbd>
-Insert text | <kbd>T</kbd>
+### Insert layers
 
-### Grouping
+Action | Keys | Menu Item
+:--|:--|:--
+Insert <u>**A**</u>rtboard | <kbd>A</kbd> | Insert › <u>**A**</u>rtboard
+Insert <u>**T**</u>ext | <kbd>T</kbd> | Insert › <u>**T**</u>ext
+Insert <u>**R**</u>ectangle | <kbd>R</kbd> | Insert › Shape › <u>**R**</u>ectangle
+Insert <u>**O**</u>val | <kbd>O</kbd> | Insert › Shape › <u>**O**</u>val
+Insert <u>**L**</u>ine | <kbd>L</kbd> | Insert › Shape › <u>**L**</u>ine
+Insert <u>**V**</u>ector | <kbd>V</kbd> | Insert › Shape › <u>**V**</u>ector
+Insert <u>**S**</u>lice | <kbd>S</kbd> | Insert › <u>**S**</u>lice
+Insert <u>**H**</u>otspot | <kbd>H</kbd> | Insert › <u>**H**</u>otspot
 
-Action | Shortcut
-:--|:--
-Group selected layers | <kbd>⌘</kbd> <kbd>G</kbd>
-Ungroup selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>G</kbd>
-Collapse all groups | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>C</kbd>
+### Change layer state
 
-### Layer state
+Action | Keys | Menu Item
+:--|:--|:--
+<u>**H**</u>ide/show selection | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>H</kbd> | Arrange › <u>**H**</u>ide Layer
+<u>**L**</u>ock/unlock selection | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>L</kbd> | Arrange › <u>**L**</u>ock Layer
+Enable/disable <u>**M**</u>ask | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>M</kbd> | Layer › Mask › Use as <u>**M**</u>ask
+Flatten selection to <u>**B**</u>itmap | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>B</kbd> | Layer › Flatten Selection to <u>**B**</u>itmap
+<u>**G**</u>roup the selected layers | <kbd>⌘</kbd> <kbd>G</kbd> | Arrange › <u>**G**</u>roup
+Ungroup the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>G</kbd> | Arrange › Ungroup
 
-Action | Shortcut
-:--|:--
-Mask/unmask selection | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>M</kbd>
-Hide/show selection | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>H</kbd>
-Lock/unlock selection | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>L</kbd>
-Flatten selection to Bitmap | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>B</kbd>
+### Select layers
 
-### Copy/paste layer styles
+Action | Keys | Menu Item
+:--|:--|:--
+Filter the layer list | Enter a layer name in the Filter box at the bottom corner of the left panel | —
+Select layers/artboards by <u>**N**</u>ame | <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>N</kbd> | Plugins › Select Layers › Select by <u>**N**</u>ame
+Select layers/artboards with the same <u>**N**</u>ame as the selected layer | <kbd>Ctrl</kbd> <kbd>N</kbd> | Plugins › Select Layers › Select Same <u>**N**</u>ame
+Select <u>**S**</u>ymbol instances that are the same as the selected layer | <kbd>Ctrl</kbd> <kbd>S</kbd> | Plugins › Select Layers › Select Same <u>**S**</u>ymbol Instance
+Select layers with the same layer/text style as the selected layer | <kbd>Ctrl</kbd> <kbd>T</kbd> | Plugins › Select Layers › Select Same Layer Style or Text Style
 
-Action | Shortcut
-:--|:--
-Copy selected layer style | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>C</kbd>
-Paste layer style | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>V</kbd>
+### Move layers on the canvas
 
-### Move layers/artboards
+Action | Keys | Menu Item
+:--|:--|:--
+Move the selected layers horizontally or vertically | <kbd>⌘</kbd> <kbd>M</kbd> | Plugins › Move Layers › Move Selected Layers
+Space out the selected layers from <u>**L**</u>eft to right | <kbd>⌘</kbd> <kbd>L</kbd> | Plugins › Move Layers › Space Selected Layers <u>**L**</u>eft
+Space out the selected layers from <u>**R**</u>ight to left | <kbd>⌘</kbd> <kbd>R</kbd> | Plugins › Move Layers › Space Selected Layers <u>**R**</u>ight
+Space out the selected layers from top to bottom | <kbd>⌘</kbd> <kbd>U</kbd> | Plugins › Move Layers › Space Selected Layers <u>**U**</u>p
+Space out the selected layers from bottom to top | <kbd>⌘</kbd> <kbd>D</kbd> | Plugins › Move Layers › Space Selected Layers <u>**D**</u>own
+Align the selected layers to <u>**L**</u>eft | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>L</kbd> | Arrange › Align › <u>**L**</u>eft
+Align the selected layers to <u>**C**</u>enter | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>C</kbd> | Arrange › Align › <u>**H**</u>orizontally
+Align the selected layers to <u>**R**</u>ight | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>R</kbd> | Arrange › Align › <u>**R**</u>ight
+Align the selected layers to <u>**T**</u>op | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>T</kbd> | Arrange › Align › <u>**T**</u>op
+Align the selected layers to <u>**M**</u>iddle | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>M</kbd> | Arrange › Align › <u>**V**</u>ertically
+Align the selected layers to <u>**B**</u>ottom | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>B</kbd> | Arrange › Align › <u>**B**</u>ottom
+Align the selected artboards to the canvas grid | — | Plugins › Align to Grid › Align Artboards to Canvas Grid
+Align the selected layers to the artboard grid | — | Plugins › Align to Grid › Align Layers to Artboard Grid
 
-Action | Shortcut
-:--|:--
-Align selection to left | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>L</kbd>
-Align selection to right | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>R</kbd>
-Align selection to top | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>T</kbd>
-Align selection to bottom | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>B</kbd>
-Space out selection horizontally (from left to right) | <kbd>⌘</kbd> <kbd>L</kbd>
-Space out selection vertically (from up to down) | <kbd>⌘</kbd> <kbd>U</kbd>
-Move selection horizontally or vertically | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>M</kbd>
+### Reorder and sort layers in the layer list
 
-### Reorder layers/artboards
+Action | Keys | Menu Item
+:--|:--|:--
+Reorder the selected layers up in the layer list | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>↑</kbd> | Arrange › Bring Forward
+Reorder the selected layers to the top of the layer list | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>↑</kbd> | Arrange › Bring to Front
+Reorder the selected layers down in the layer list | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>↓</kbd> | Arrange › Send Backward
+Reorder the selected layers to the bottom of the layer list | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>↓</kbd> | Arrange › Send to Back
+<u>**S**</u>ort the selected layers by name | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>S</kbd> | Plugins › Sort Layer List › <u>**S**</u>ort Selected Layers by Name
+Sort the selected layers by horizontal (<u>**X**</u>) position | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>X</kbd> | Plugins › Sort Layer List › Sort Selected Layers by <u>**X**</u> Position
+Sort the selected layers by vertical (<u>**Y**</u>) position | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Y</kbd> | Plugins › Sort Layer List › Sort Selected Layers by <u>**Y**</u> Position
+Smart sort the selected layers | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>P</kbd> | Plugins › Sort Layer List › Smart Sort
 
-Action | Shortcut
-:--|:--
-Reorder selection up | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>↑</kbd>
-Reorder selection down | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>↓</kbd>
-Reorder selection by name | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>S</kbd>
-Reorder selection by horizontal (X) position | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>X</kbd>
-Reorder selection by vertical (Y) position | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>Y</kbd>
+### Rename layers
 
-### Rename layers/artboards
+Action | Keys | Menu Item
+:--|:--|:--
+<u>**R**</u>ename the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>R</kbd> | Plugins › Rename It › <u>**R**</u>ename Selected Layers
+Find and <u>**R**</u>eplace text in the selected layer names | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>R</kbd> | Plugins › <u>**R**</u>ename It › Find and Replace Layers/Artboards Names
 
-Action | Shortcut
-:--|:--
-Rename selected layer names | <kbd>⌘</kbd> <kbd>R</kbd>
-Find and replace selected layer names | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>R</kbd>
+### Copy and paste layer/text styles
 
-### Miscellaneous
+Action | Keys | Menu Item
+:--|:--|:--
+<u>**C**</u>opy the selected layer/text style | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>C</kbd> | Edit › Copy › <u>**C**</u>opy Style
+Paste layer/text style | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>V</kbd> | Edit › Paste › Paste Style
 
-Action | Shortcut
-:--|:--
-Export | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>E</kbd>
-Find and replace text in text layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>F</kbd>
+### Find and replace text
+
+Action | Keys | Menu Item
+:--|:--|:--
+<u>**F**</u>ind and replace text | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>F</kbd> | Plugins › Find and Replace Text › <u>**F**</u>ind and Replace Text
+
+### Clean up your Sketch file
+
+Action | Keys | Menu Item
+:--|:--|:--
+<u>**C**</u>lean up the selected layers | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>C</kbd> | Plugins › Clean Document › <u>**C**</u>lean Layers
+Clean up all pages, artboards, layers, symbols in the current document | — | Plugins › Clean Document › Clean Document
+
+### Prepare UX documentation for hand-off
+
+Action | Keys | Menu Item
+:--|:--|:--
+<u>**E**</u>xport assets | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>E</kbd> | File › <u>**E**</u>xport…
+Add <u>**T**</u>itles above the selected artboards | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>T</kbd> | Plugins › Add Artboard Borders and Titles › Add Artboard <u>**T**</u>itles
+Add <u>**B**</u>orders over the selected artboards | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>B</kbd> | Plugins › Add Artboard Borders and Titles › Add Artboard <u>**B**</u>orders
+Draw a slice over the selected layers | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>L</kbd> | Plugins › Draw Slice Over Selection › Draw Slice Over Selection
