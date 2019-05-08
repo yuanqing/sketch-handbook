@@ -83,8 +83,8 @@ Action | Keys | Menu Item
 :--|:--|:--
 **Z**oom in | Hold <kbd>Z</kbd>, then click on the canvas | View › **Z**oom In
 **Z**oom out | Hold <kbd>Option</kbd> <kbd>Z</kbd>, then click on the canvas | View › **Z**oom Out
-Pan | Hold <kbd>Space</kbd> then click and drag on the canvas | —
-Show pixel distance <br />between layers | Select some layers, then hold <kbd>Option</kbd> <br />when hovering over other layers | —
+Pan | Hold <kbd>Space</kbd>, then click and drag on the canvas | —
+Show the pixel distance <br />between layers | Select some layers, then hold <kbd>Option</kbd> <br />when hovering over other layers | —
 
 ### Insert layers
 
@@ -115,8 +115,8 @@ Ungroup the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>G</kbd> | Arr
 Action | Keys | Menu Item
 :--|:--|:--
 Filter the layer list | Enter a layer name in the Filter box at the bottom corner of the left panel | —
-Select layers/artboards by **N**ame | <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>N</kbd> | Plugins › Select Layers › Select by **N**ame
-Select layers/artboards with the same **N**ame as the selected layer | <kbd>Ctrl</kbd> <kbd>N</kbd> | Plugins › Select Layers › Select Same **N**ame
+Select layers by **N**ame | <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>N</kbd> | Plugins › Select Layers › Select by **N**ame
+Select layers with the same **N**ame as the selected layer | <kbd>Ctrl</kbd> <kbd>N</kbd> | Plugins › Select Layers › Select Same **N**ame
 Select **S**ymbol instances that are the same as the selected layer | <kbd>Ctrl</kbd> <kbd>S</kbd> | Plugins › Select Layers › Select Same **S**ymbol Instance
 Select layers with the same layer/text style as the selected layer | <kbd>Ctrl</kbd> <kbd>T</kbd> | Plugins › Select Layers › Select Same Layer Style or Text Style
 
@@ -156,7 +156,7 @@ Smart sort the selected layers | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>P</kbd> | P
 Action | Keys | Menu Item
 :--|:--|:--
 **R**ename the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>R</kbd> | Plugins › Rename It › **R**ename Selected Layers
-Find and **R**eplace text in the selected layer names | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>R</kbd> | Plugins › **R**ename It › Find and Replace Layers/Artboards Names
+Find and **R**eplace text in the selected layers’ names | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>R</kbd> | Plugins › **R**ename It › Find and Replace Layers/Artboards Names
 
 ### Copy and paste layer/text styles
 
