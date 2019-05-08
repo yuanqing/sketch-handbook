@@ -2,24 +2,24 @@
 
 > A concise handbook on working precisely and effectively in [Sketch](https://www.sketch.com/)
 
-- [**Initial set up**](#-initial-set-up)
+- [**Initial set up**](#initial-set-up)
     - [Preferences](#1-preferences)
     - [Plugins](#2-plugins)
     - [Custom keyboard shortcuts](#3-custom-keyboard-shortcuts)
     - [Sketch Mirror](#4-sketch-mirror)
-- [**Actions and keyboard shortcuts**](#-actions-and-keyboard-shortcuts)
-    - [Adjusting the view](#adjusting-the-view)
-    - [Navigating around the canvas](#navigating-around-the-canvas)
-    - [Inserting layers](#inserting-layers)
-    - [Changing layer state](#changing-layer-state)
-    - [Selecting layers](#selecting-layers)
-    - [Moving layers on the canvas](#moving-layers-on-the-canvas)
+- [**Actions and keyboard shortcuts**](#actions-and-keyboard-shortcuts)
+    - [Adjust the view](#adjust-the-view)
+    - [Navigate around the canvas](#navigate-around-the-canvas)
+    - [Insert layers](#insert-layers)
+    - [Change layer state](#change-layer-state)
+    - [Select layers](#select-layers)
+    - [Move layers on the canvas](#move-layers-on-the-canvas)
     - [Reorder and sort layers in the layer list](#reorder-and-sort-layers-in-the-layer-list)
-    - [Renaming layers](#renaming-layers)
+    - [Rename layers](#rename-layers)
     - [Copy and paste layer/text styles](#copy-and-paste-layertext-styles)
     - [Find and replace text](#find-and-replace-text)
-    - [Cleaning up your Sketch file](#cleaning-up-your-sketch-file)
-    - [Preparing UX documentation for hand-off](#preparing-ux-documentation-for-hand-off)
+    - [Clean up your Sketch file](#clean-up-your-sketch-file)
+    - [Prepare documentation for hand-off](#prepare-documentation-for-hand-off)
 
 ## Initial set up
 
@@ -54,7 +54,7 @@ Name | Description
 
 ### 3. Custom keyboard shortcuts
 
-1. Open the **`Terminal`** app. Copy and paste the following into prompt, then hit <kbd>Enter</kbd>:
+1. Open the **`Terminal`** app. Copy and paste the following into the prompt, then hit <kbd>Return</kbd>:
 
     ```sh
     curl https://raw.githubusercontent.com/yuanqing/sketch-handbook/master/set-keyboard-shortcuts.sh | bash
@@ -64,7 +64,7 @@ Name | Description
 
 ### 4. Sketch Mirror
 
-Install the [**Sketch Mirror**](https://itunes.apple.com/us/app/sketch-mirror/id677296955) app on your iPhone to preview your designs on your mobile device. (On Android, install the [**Crystal**](https://play.google.com/store/apps/details?id=com.smithyproductions.crystal) app.)
+Install the [**Sketch Mirror**](https://itunes.apple.com/us/app/sketch-mirror/id677296955) app to preview your designs on your iPhone while working in Sketch. (On Android, you can install the [**Crystal**](https://play.google.com/store/apps/details?id=com.smithyproductions.crystal) app.)
 
 ## Actions and keyboard shortcuts
 
@@ -84,7 +84,7 @@ Action | Keys | Menu Item
 **Z**oom in | Hold <kbd>Z</kbd>, then click on the canvas | View › **Z**oom In
 **Z**oom out | Hold <kbd>Option</kbd> <kbd>Z</kbd>, then click on the canvas | View › **Z**oom Out
 Pan | Hold <kbd>Space</kbd>, then click and drag on the canvas | —
-Show the pixel distance <br />between layers | Select some layers, then hold <kbd>Option</kbd> <br />when hovering over other layers | —
+Show the pixel distance between layers | Select some layers, then hold <kbd>Option</kbd> when hovering over other layers | —
 
 ### Insert layers
 
@@ -103,10 +103,10 @@ Insert **H**otspot | <kbd>H</kbd> | Insert › **H**otspot
 
 Action | Keys | Menu Item
 :--|:--|:--
-**H**ide/show selection | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>H</kbd> | Arrange › **H**ide Layer
-**L**ock/unlock selection | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>L</kbd> | Arrange › **L**ock Layer
+**H**ide/show the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>H</kbd> | Arrange › **H**ide Layer
+**L**ock/unlock the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>L</kbd> | Arrange › **L**ock Layer
 Enable/disable **M**ask | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>M</kbd> | Layer › Mask › Use as **M**ask
-Flatten selection to **B**itmap | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>B</kbd> | Layer › Flatten Selection to **B**itmap
+Flatten the selected layers to **B**itmap | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>B</kbd> | Layer › Flatten Selection to **B**itmap
 **G**roup the selected layers | <kbd>⌘</kbd> <kbd>G</kbd> | Arrange › **G**roup
 Ungroup the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>G</kbd> | Arrange › Ungroup
 
@@ -129,12 +129,12 @@ Space out the selected layers from **L**eft to right | <kbd>⌘</kbd> <kbd>L</kb
 Space out the selected layers from **R**ight to left | <kbd>⌘</kbd> <kbd>R</kbd> | Plugins › Move Layers › Space Selected Layers **R**ight
 Space out the selected layers from top to bottom | <kbd>⌘</kbd> <kbd>U</kbd> | Plugins › Move Layers › Space Selected Layers **U**p
 Space out the selected layers from bottom to top | <kbd>⌘</kbd> <kbd>D</kbd> | Plugins › Move Layers › Space Selected Layers **D**own
-Align the selected layers to **L**eft | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>L</kbd> | Arrange › Align › **L**eft
-Align the selected layers to **C**enter | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>C</kbd> | Arrange › Align › **H**orizontally
-Align the selected layers to **R**ight | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>R</kbd> | Arrange › Align › **R**ight
-Align the selected layers to **T**op | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>T</kbd> | Arrange › Align › **T**op
-Align the selected layers to **M**iddle | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>M</kbd> | Arrange › Align › **V**ertically
-Align the selected layers to **B**ottom | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>B</kbd> | Arrange › Align › **B**ottom
+**L**eft-align the selected layers | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>L</kbd> | Arrange › Align › **L**eft
+**C**enter-align the selected layers | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>C</kbd> | Arrange › Align › **H**orizontally
+**R**ight-align the selected layers | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>R</kbd> | Arrange › Align › **R**ight
+**T**op-align the selected layers | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>T</kbd> | Arrange › Align › **T**op
+**M**iddle-align the selected layers | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>M</kbd> | Arrange › Align › **V**ertically
+**B**ottom-align the selected layers | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>B</kbd> | Arrange › Align › **B**ottom
 Align the selected artboards to the canvas grid | — | Plugins › Align to Grid › Align Artboards to Canvas Grid
 Align the selected layers to the artboard grid | — | Plugins › Align to Grid › Align Layers to Artboard Grid
 
@@ -156,7 +156,7 @@ Smart sort the selected layers | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>P</kbd> | P
 Action | Keys | Menu Item
 :--|:--|:--
 **R**ename the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>R</kbd> | Plugins › Rename It › **R**ename Selected Layers
-Find and **R**eplace text in the selected layers’ names | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>R</kbd> | Plugins › **R**ename It › Find and Replace Layers/Artboards Names
+Find and **R**eplace text in the selected layers’ names | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>R</kbd> | Plugins › Rename It › Find and **R**eplace Layers/Artboards Names
 
 ### Copy and paste layer/text styles
 
@@ -176,9 +176,9 @@ Action | Keys | Menu Item
 Action | Keys | Menu Item
 :--|:--|:--
 **C**lean up the selected layers | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>C</kbd> | Plugins › Clean Document › **C**lean Layers
-Clean up all pages, artboards, layers, symbols in the current document | — | Plugins › Clean Document › Clean Document
+Clean up all pages, artboards, layers, and symbols in the current document | — | Plugins › Clean Document › Clean Document
 
-### Prepare UX documentation for hand-off
+### Prepare documentation for hand-off
 
 Action | Keys | Menu Item
 :--|:--|:--
