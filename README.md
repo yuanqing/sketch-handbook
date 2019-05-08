@@ -1,6 +1,6 @@
 # Sketch Handbook
 
-> A concise handbook for working precisely and effectively in [Sketch](https://www.sketch.com/)
+> A concise handbook on working precisely and effectively in [Sketch](https://www.sketch.com/)
 
 - [**Initial set up**](#-initial-set-up)
     - [Preferences](#1-preferences)
