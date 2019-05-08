@@ -1,0 +1,61 @@
+{
+  "Arrange": {
+    "Align": {
+      "Bottom": "cmd ctrl b",
+      "Horizontally": "cmd ctrl c",
+      "Left": "cmd ctrl l",
+      "Right": "cmd ctrl r",
+      "Top": "cmd ctrl t",
+      "Vertically": "cmd ctrl m"
+    }
+  },
+  "Layer": {
+    "Flatten Selection to Bitmap": "cmd shift b",
+    "Mask": {
+      "Use as Mask": "cmd shift m"
+    }
+  },
+  "Plugins": {
+    "Add Artboard Borders and Titles": {
+      "Add Artboard Borders": "cmd ctrl option b",
+      "Add Artboard Titles": "cmd ctrl option t"
+    },
+    "Clean Document": {
+      "Clean Layers": "cmd ctrl option c"
+    },
+    "Draw Slice Over Selection": {
+      "Draw Slice Over Selection": "cmd ctrl option l"
+    },
+    "Find and Replace Text": {
+      "Find and Replace Text": "cmd shift f"
+    },
+    "Move Layers": {
+      "Move Selected Layers": "cmd m",
+      "Space Selected Layers Left": "cmd l",
+      "Space Selected Layers Right": "cmd r",
+      "Space Selected Layers Up": "cmd u",
+      "Space Selected Layers Down": "cmd d"
+    },
+    "Rename It": {
+      "Find and Replace Layers/Artboards Names": "cmd option r",
+      "Rename Selected Layers": "cmd shift r"
+    },
+    "Select Layers": {
+      "Select By Name": "ctrl option n",
+      "Select Same Name": "ctrl n",
+      "Select Same Layer Style or Text Style": "ctrl t",
+      "Select Same Symbol Instance": "ctrl s"
+    },
+    "Sort Layer List": {
+      "Sort Selected Layers By Name": "cmd ctrl s",
+      "Sort Selected Layers By X Position": "cmd ctrl x",
+      "Sort Selected Layers By Y Position": "cmd ctrl y",
+      "Smart Sort": "cmd ctrl p"
+    }
+  },
+  "View": {
+    "Layer List": {
+      "Collapse All Groups": "cmd shift c"
+    }
+  }
+}

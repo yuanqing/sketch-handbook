@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "sks set --bash shortcuts.json > set-keyboard-shortcuts.sh"
+  },
+  "dependencies": {
+    "sketch-keyboard-shortcuts": "^0.0.6"
+  }
+}
