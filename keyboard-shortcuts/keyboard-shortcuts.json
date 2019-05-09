@@ -55,7 +55,7 @@
   },
   "View": {
     "Layer List": {
-      "Collapse All Groups": "cmd shift c"
+      "Collapse All Groups": "ctrl shift c"
     }
   }
 }
