@@ -81,8 +81,8 @@ Show the canvas only | <kbd>⌘</kbd> <kbd>.</kbd> | View › Hide Interface
 
 Action | Keys | Menu Item
 :--|:--|:--
-**(Z)**oom in | Hold <kbd>Z</kbd>, then click on the canvas | View › Zoom In
-**(Z)**oom out | Hold <kbd>Option</kbd> <kbd>Z</kbd>, then click on the canvas | View › Zoom Out
+<strong>(Z)</strong>oom in | Hold <kbd>Z</kbd>, then click on the canvas | View › Zoom In
+<strong>(Z)</strong>oom out | Hold <kbd>Option</kbd> <kbd>Z</kbd>, then click on the canvas | View › Zoom Out
 Pan | Hold <kbd>Space</kbd>, then click and drag on the canvas | —
 Show the pixel distance between layers | Select some layers, then hold <kbd>Option</kbd> as you hover over other layers | —
 
@@ -103,11 +103,11 @@ Insert Hotspot | <kbd>H</kbd> | Insert › Hotspot
 
 Action | Keys | Menu Item
 :--|:--|:--
-**(H)**ide/show the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>H</kbd> | Arrange › Hide Layer
-**(L)**ock/unlock the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>L</kbd> | Arrange › Lock Layer
+<strong>(H)</strong>ide/show the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>H</kbd> | Arrange › Hide Layer
+<strong>(L)</strong>ock/unlock the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>L</kbd> | Arrange › Lock Layer
 Enable/disable Mask for the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>M</kbd> | Layer › Mask › Use as Mask
 Flatten the selected layers to Bitmap | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>B</kbd> | Layer › Flatten Selection to Bitmap
-**(G)**roup the selected layers | <kbd>⌘</kbd> <kbd>G</kbd> | Arrange › Group
+<strong>(G)</strong>roup the selected layers | <kbd>⌘</kbd> <kbd>G</kbd> | Arrange › Group
 Ungroup the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>G</kbd> | Arrange › Ungroup
 
 ### Select layers
@@ -124,17 +124,17 @@ Select layers with the same layer style or text style as the selected layer | <k
 
 Action | Keys | Menu Item
 :--|:--|:--
-**(M)**ove the selected layers horizontally or vertically | <kbd>⌘</kbd> <kbd>M</kbd> | Plugins › Move Layers › Move Selected Layers
-Space out the selected layers from **(L)**eft to right | <kbd>⌘</kbd> <kbd>L</kbd> | Plugins › Move Layers › Space Selected Layers Left
-Space out the selected layers from **(R)**ight to left | <kbd>⌘</kbd> <kbd>R</kbd> | Plugins › Move Layers › Space Selected Layers Right
+<strong>(M)</strong>ove the selected layers horizontally or vertically | <kbd>⌘</kbd> <kbd>M</kbd> | Plugins › Move Layers › Move Selected Layers
+Space out the selected layers from <strong>(L)</strong>eft to right | <kbd>⌘</kbd> <kbd>L</kbd> | Plugins › Move Layers › Space Selected Layers Left
+Space out the selected layers from <strong>(R)</strong>ight to left | <kbd>⌘</kbd> <kbd>R</kbd> | Plugins › Move Layers › Space Selected Layers Right
 Space out the selected layers from top to bottom | <kbd>⌘</kbd> <kbd>U</kbd> | Plugins › Move Layers › Space Selected Layers Up
 Space out the selected layers from bottom to top | <kbd>⌘</kbd> <kbd>D</kbd> | Plugins › Move Layers › Space Selected Layers Down
-**(L)**eft-align the selected layers | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>L</kbd> | Arrange › Align › Left
-**(C)**enter-align the selected layers | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>C</kbd> | Arrange › Align › Horizontally
-**(R)**ight-align the selected layers | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>R</kbd> | Arrange › Align › Right
-**(T)**op-align the selected layers | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>T</kbd> | Arrange › Align › Top
-**(M)**iddle-align the selected layers | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>M</kbd> | Arrange › Align › Vertically
-**(B)**ottom-align the selected layers | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>B</kbd> | Arrange › Align › Bottom
+<strong>(L)</strong>eft-align the selected layers | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>L</kbd> | Arrange › Align › Left
+<strong>(C)</strong>enter-align the selected layers | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>C</kbd> | Arrange › Align › Horizontally
+<strong>(R)</strong>ight-align the selected layers | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>R</kbd> | Arrange › Align › Right
+<strong>(T)</strong>op-align the selected layers | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>T</kbd> | Arrange › Align › Top
+<strong>(M)</strong>iddle-align the selected layers | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>M</kbd> | Arrange › Align › Vertically
+<strong>(B)</strong>ottom-align the selected layers | <kbd>⌘</kbd> <kbd>Control</kbd> <kbd>B</kbd> | Arrange › Align › Bottom
 Align the selected artboards to the canvas grid | — | Plugins › Align to Grid › Align Artboards to Canvas Grid
 Align the selected layers to the artboard grid | — | Plugins › Align to Grid › Align Layers to Artboard Grid
 
@@ -146,7 +146,7 @@ Reorder the selected layers up in the layer list | <kbd>⌘</kbd> <kbd>Option</k
 Reorder the selected layers to the top of the layer list | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>↑</kbd> | Arrange › Bring to Front
 Reorder the selected layers down in the layer list | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>↓</kbd> | Arrange › Send Backward
 Reorder the selected layers to the bottom of the layer list | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>↓</kbd> | Arrange › Send to Back
-**(S)**ort the selected layers by name | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>S</kbd> | Plugins › Sort Layer List › Sort Selected Layers by Name
+<strong>(S)</strong>ort the selected layers by name | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>S</kbd> | Plugins › Sort Layer List › Sort Selected Layers by Name
 Sort the selected layers by their horizontal position | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>X</kbd> | Plugins › Sort Layer List › Sort Selected Layers by X Position
 Sort the selected layers by their vertical position | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Y</kbd> | Plugins › Sort Layer List › Sort Selected Layers by Y Position
 Smart sort the selected layers | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>P</kbd> | Plugins › Sort Layer List › Smart Sort
@@ -155,34 +155,34 @@ Smart sort the selected layers | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>P</kbd> | P
 
 Action | Keys | Menu Item
 :--|:--|:--
-**(R)**ename the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>R</kbd> | Plugins › Rename It › Rename Selected Layers
-Find and **(R)**eplace text in the selected layers’ names | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>R</kbd> | Plugins › Rename It › Find and Replace Layers/Artboards Names
+<strong>(R)</strong>ename the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>R</kbd> | Plugins › Rename It › Rename Selected Layers
+Find and <strong>(R)</strong>eplace text in the selected layers’ names | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>R</kbd> | Plugins › Rename It › Find and Replace Layers/Artboards Names
 
 ### Copy and paste layer style or text style
 
 Action | Keys | Menu Item
 :--|:--|:--
-**(C)**opy the selected layer style or text style | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>C</kbd> | Edit › Copy › Copy Style
+<strong>(C)</strong>opy the selected layer style or text style | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>C</kbd> | Edit › Copy › Copy Style
 Paste a layer style or text style onto the selected layers | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>V</kbd> | Edit › Paste › Paste Style
 
 ### Find and replace text
 
 Action | Keys | Menu Item
 :--|:--|:--
-**(F)**ind and replace text | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>F</kbd> | Plugins › Find and Replace Text › Find and Replace Text
+<strong>(F)</strong>ind and replace text | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>F</kbd> | Plugins › Find and Replace Text › Find and Replace Text
 
 ### Clean up your Sketch file
 
 Action | Keys | Menu Item
 :--|:--|:--
-**(C)**lean up the selected layers | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>C</kbd> | Plugins › Clean Document › Clean Layers
+<strong>(C)</strong>lean up the selected layers | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>C</kbd> | Plugins › Clean Document › Clean Layers
 Clean up all pages, artboards, layers, and symbols in the current document | — | Plugins › Clean Document › Clean Document
 
 ### Prepare specifications for hand-off
 
 Action | Keys | Menu Item
 :--|:--|:--
-**(E)**xport assets | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>E</kbd> | File › Export…
+<strong>(E)</strong>xport assets | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>E</kbd> | File › Export…
 Add Titles above the selected artboards | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>T</kbd> | Plugins › Add Artboard Borders and Titles › Add Artboard Titles
 Add Borders over the selected artboards | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>B</kbd> | Plugins › Add Artboard Borders and Titles › Add Artboard Borders
 Draw a slice over the selected layers | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>L</kbd> | Plugins › Draw Slice Over Selection › Draw Slice Over Selection
