@@ -28,4 +28,4 @@ defaults write com.bohemiancoding.sketch3 NSUserKeyEquivalents -dict-add "Plugi
 defaults write com.bohemiancoding.sketch3 NSUserKeyEquivalents -dict-add "PluginsSort Layer ListSort Selected Layers By X Position" "@^x"
 defaults write com.bohemiancoding.sketch3 NSUserKeyEquivalents -dict-add "PluginsSort Layer ListSort Selected Layers By Y Position" "@^y"
 defaults write com.bohemiancoding.sketch3 NSUserKeyEquivalents -dict-add "PluginsSort Layer ListSmart Sort" "@^p"
-defaults write com.bohemiancoding.sketch3 NSUserKeyEquivalents -dict-add "ViewLayer ListCollapse All Groups" "@\$c"
+defaults write com.bohemiancoding.sketch3 NSUserKeyEquivalents -dict-add "ViewLayer ListCollapse All Groups" "^\$c"
