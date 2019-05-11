@@ -2,12 +2,12 @@
 
 > A concise handbook on working precisely and effectively in [Sketch](https://www.sketch.com/)
 
-- [**Initial set up**](#initial-set-up)
+- [Initial set up](#initial-set-up)
     - [Preferences](#1-preferences)
     - [Plugins](#2-plugins)
     - [Custom keyboard shortcuts](#3-custom-keyboard-shortcuts)
     - [Sketch Mirror](#4-sketch-mirror)
-- [**Actions and keyboard shortcuts**](#actions-and-keyboard-shortcuts)
+- [Actions and keyboard shortcuts](#actions-and-keyboard-shortcuts)
     - [Adjust the view](#adjust-the-view)
     - [Navigate around the canvas](#navigate-around-the-canvas)
     - [Insert layers](#insert-layers)
@@ -74,7 +74,7 @@ Action | Keys | Menu Item
 :--|:--|:--
 Show/hide left panel | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>1</kbd> | View › Show Layer List
 Show/hide right panel | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>2</kbd> | View › Show Inspector
-Hide the Top panel | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>T</kbd> | View › Hide Toolbar
+Hide the <strong>(T)</strong>op panel | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>T</kbd> | View › Hide Toolbar
 Show the canvas only | <kbd>⌘</kbd> <kbd>.</kbd> | View › Hide Interface
 
 ### Navigate around the canvas
@@ -90,14 +90,14 @@ Show the pixel distance between layers | Select some layers, then hold <kbd>Opti
 
 Action | Keys | Menu Item
 :--|:--|:--
-Insert Artboard | <kbd>A</kbd> | Insert › Artboard
-Insert Text | <kbd>T</kbd> | Insert › Text
-Insert Rectangle | <kbd>R</kbd> | Insert › Shape › Rectangle
-Insert Oval | <kbd>O</kbd> | Insert › Shape › Oval
-Insert Line | <kbd>L</kbd> | Insert › Shape › Line
-Insert Vector | <kbd>V</kbd> | Insert › Shape › Vector
-Insert Slice | <kbd>S</kbd> | Insert › Slice
-Insert Hotspot | <kbd>H</kbd> | Insert › Hotspot
+Insert <strong>(A)</strong>rtboard | <kbd>A</kbd> | Insert › Artboard
+Insert <strong>(T)</strong>ext | <kbd>T</kbd> | Insert › Text
+Insert <strong>(R)</strong>ectangle | <kbd>R</kbd> | Insert › Shape › Rectangle
+Insert <strong>(O)</strong>val | <kbd>O</kbd> | Insert › Shape › Oval
+Insert <strong>(L)</strong>ine | <kbd>L</kbd> | Insert › Shape › Line
+Insert <strong>(V)</strong>ector | <kbd>V</kbd> | Insert › Shape › Vector
+Insert <strong>(S)</strong>lice | <kbd>S</kbd> | Insert › Slice
+Insert <strong>(H)</strong>otspot | <kbd>H</kbd> | Insert › Hotspot
 
 ### Change layer state
 
@@ -105,8 +105,8 @@ Action | Keys | Menu Item
 :--|:--|:--
 <strong>(H)</strong>ide/show the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>H</kbd> | Arrange › Hide Layer
 <strong>(L)</strong>ock/unlock the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>L</kbd> | Arrange › Lock Layer
-Enable/disable Mask for the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>M</kbd> | Layer › Mask › Use as Mask
-Flatten the selected layers to Bitmap | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>B</kbd> | Layer › Flatten Selection to Bitmap
+Enable/disable <strong>(M)</strong>ask for the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>M</kbd> | Layer › Mask › Use as Mask
+Flatten the selected layers to <strong>(B)</strong>itmap | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>B</kbd> | Layer › Flatten Selection to Bitmap
 <strong>(G)</strong>roup the selected layers | <kbd>⌘</kbd> <kbd>G</kbd> | Arrange › Group
 Ungroup the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>G</kbd> | Arrange › Ungroup
 
@@ -115,9 +115,9 @@ Ungroup the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>G</kbd> | Arr
 Action | Keys | Menu Item
 :--|:--|:--
 Filter the layer list | Enter a layer name in the Filter box at the bottom of the left panel | —
-Select layers by Name | <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>N</kbd> | Plugins › Select Layers › Select by Name
-Select layers with the same Name as the selected layer | <kbd>Ctrl</kbd> <kbd>N</kbd> | Plugins › Select Layers › Select Same Name
-Select Symbol instances that are the same as the selected layer | <kbd>Ctrl</kbd> <kbd>S</kbd> | Plugins › Select Layers › Select Same Symbol Instance
+Select layers by <strong>(N)</strong>ame | <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>N</kbd> | Plugins › Select Layers › Select by Name
+Select layers with the same <strong>(N)</strong>ame as the selected layer | <kbd>Ctrl</kbd> <kbd>N</kbd> | Plugins › Select Layers › Select Same Name
+Select <strong>(S)</strong>ymbol instances that are the same as the selected layer | <kbd>Ctrl</kbd> <kbd>S</kbd> | Plugins › Select Layers › Select Same Symbol Instance
 Select layers with the same layer style or text style as the selected layer | <kbd>Ctrl</kbd> <kbd>T</kbd> | Plugins › Select Layers › Select Same Layer Style or Text Style
 
 ### Move layers on the canvas
@@ -156,7 +156,7 @@ Smart sort the selected layers | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>P</kbd> | P
 Action | Keys | Menu Item
 :--|:--|:--
 <strong>(R)</strong>ename the selected layers | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>R</kbd> | Plugins › Rename It › Rename Selected Layers
-Find and <strong>(R)</strong>eplace text in the selected layers’ names | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>R</kbd> | Plugins › Rename It › Find and Replace Layers/Artboards Names
+Find and replace text in the selected layers’ names | <kbd>⌘</kbd> <kbd>Option</kbd> <kbd>R</kbd> | Plugins › Rename It › Find and Replace Layers/Artboards Names
 
 ### Copy and paste layer style or text style
 
@@ -183,6 +183,6 @@ Clean up all pages, artboards, layers, and symbols in the current document | —
 Action | Keys | Menu Item
 :--|:--|:--
 <strong>(E)</strong>xport assets | <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>E</kbd> | File › Export…
-Add Titles above the selected artboards | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>T</kbd> | Plugins › Add Artboard Borders and Titles › Add Artboard Titles
-Add Borders over the selected artboards | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>B</kbd> | Plugins › Add Artboard Borders and Titles › Add Artboard Borders
+Add <strong>(T)</strong>itles above the selected artboards | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>T</kbd> | Plugins › Add Artboard Borders and Titles › Add Artboard Titles
+Add <strong>(B)</strong>orders over the selected artboards | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>B</kbd> | Plugins › Add Artboard Borders and Titles › Add Artboard Borders
 Draw a slice over the selected layers | <kbd>⌘</kbd> <kbd>Ctrl</kbd> <kbd>Option</kbd> <kbd>L</kbd> | Plugins › Draw Slice Over Selection › Draw Slice Over Selection
