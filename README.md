@@ -41,16 +41,16 @@
 
 Name | Description
 :--|:--
-[**Add Artboard Borders and Titles**](https://github.com/yuanqing/sketch-add-artboard-borders-and-titles/archive/master.zip) | Automatically add borders and titles to artboards
-[**Align to Grid**](https://github.com/yuanqing/sketch-align-to-grid/archive/master.zip) | Align artboards and layers to a grid
-[**Automate Sketch**](https://github.com/Ashung/Automate-Sketch/archive/master.zip) | Useful collection of helpers and utilities for Sketch
-[**Clean Document**](https://github.com/yuanqing/sketch-clean-document/archive/master.zip) | Automagically organise and clean up your Sketch document
-[**Draw Slice Over Selection**](https://github.com/yuanqing/sketch-draw-slice-over-selection/archive/master.zip) | Draw a slice over the selection
-[**Find and Replace Text**](https://github.com/yuanqing/sketch-find-and-replace-text/archive/master.zip) | Find and replace text in text layers and symbol instances
-[**Move Layers**](https://github.com/yuanqing/sketch-move-layers/archive/master.zip) | Precisely move and arrange layers
-[**Rename It**](https://github.com/rodi01/RenameIt/archive/master.zip) | Rename layers and artboards
-[**Select Layers**](https://github.com/yuanqing/sketch-select-layers/archive/master.zip) | Select layers based on name, type or similarity
-[**Sort Layer List**](https://github.com/yuanqing/sketch-sort-layer-list/archive/master.zip) | Sort the layer list by name or layer position
+[**Add Artboard Borders and Titles**](https://github.com/yuanqing/sketch-plugins/tree/master/packages/sketch-add-artboard-borders-and-titles) | Add borders and titles to artboards
+[**Align to Grid**](https://github.com/yuanqing/sketch-plugins/tree/master/packages/sketch-align-to-grid) | Align artboards and layers to a grid
+[**Automate Sketch**](https://github.com/Ashung/Automate-Sketch) | Useful collection of helpers and utilities for Sketch
+[**Clean Document**](https://github.com/yuanqing/sketch-plugins/tree/master/packages/sketch-clean-document) | Automagically organise and clean up your Sketch document
+[**Draw Slice Over Selection**](https://github.com/yuanqing/sketch-plugins/tree/master/packages/sketch-draw-slice-over-selection) | Draw a slice over the selection
+[**Find and Replace Text**](https://github.com/yuanqing/sketch-plugins/tree/master/packages/sketch-find-and-replace-text) | Find and replace text in text layers and symbol instances
+[**Move Layers**](https://github.com/yuanqing/sketch-plugins/tree/master/packages/sketch-move-layers) | Precisely move and arrange layers
+[**Rename It**](https://github.com/rodi01/RenameIt) | Rename layers and artboards
+[**Select Layers**](https://github.com/yuanqing/sketch-plugins/tree/master/packages/sketch-select-layers) | Select layers based on name, type or similarity
+[**Sort Layer List**](https://github.com/yuanqing/sketch-plugins/tree/master/packages/sketch-sort-layer-list) | Sort the layer list by name or layer position
 
 ### 3. Custom keyboard shortcuts
 
